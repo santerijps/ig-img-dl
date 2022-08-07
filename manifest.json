@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+
+  "name": "ig-img-dl",
+  "description": "Open Instagram images in their original resolutions in a new tab.",
+  "version": "1.0.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.instagram.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "icons": {
+    "128": "icons/128.png",
+    "512": "icons/512.png"
+  }
+
+}
